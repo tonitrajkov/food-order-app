@@ -1,0 +1,9 @@
+C:\Learn\FoodOrderApp\FoodOrderApp.Nats.Service\bin\Debug\netcoreapp2.1\FoodOrderApp.Nats.Service.deps.json
+C:\Learn\FoodOrderApp\FoodOrderApp.Nats.Service\bin\Debug\netcoreapp2.1\FoodOrderApp.Nats.Service.dll
+C:\Learn\FoodOrderApp\FoodOrderApp.Nats.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Nats.Service.csproj.CoreCompileInputs.cache
+C:\Learn\FoodOrderApp\FoodOrderApp.Nats.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Nats.Service.AssemblyInfoInputs.cache
+C:\Learn\FoodOrderApp\FoodOrderApp.Nats.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Nats.Service.AssemblyInfo.cs
+C:\Learn\FoodOrderApp\FoodOrderApp.Nats.Service\bin\Debug\netcoreapp2.1\FoodOrderApp.Nats.Service.pdb
+C:\Learn\FoodOrderApp\FoodOrderApp.Nats.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Nats.Service.csprojAssemblyReference.cache
+C:\Learn\FoodOrderApp\FoodOrderApp.Nats.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Nats.Service.dll
+C:\Learn\FoodOrderApp\FoodOrderApp.Nats.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Nats.Service.pdb

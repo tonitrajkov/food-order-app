@@ -1,0 +1,9 @@
+C:\Learn\FoodOrderApp\FoodOrderApp.SignalR\bin\Debug\netcoreapp2.1\FoodOrderApp.SignalR.deps.json
+C:\Learn\FoodOrderApp\FoodOrderApp.SignalR\bin\Debug\netcoreapp2.1\FoodOrderApp.SignalR.dll
+C:\Learn\FoodOrderApp\FoodOrderApp.SignalR\bin\Debug\netcoreapp2.1\FoodOrderApp.SignalR.pdb
+C:\Learn\FoodOrderApp\FoodOrderApp.SignalR\obj\Debug\netcoreapp2.1\FoodOrderApp.SignalR.csprojAssemblyReference.cache
+C:\Learn\FoodOrderApp\FoodOrderApp.SignalR\obj\Debug\netcoreapp2.1\FoodOrderApp.SignalR.csproj.CoreCompileInputs.cache
+C:\Learn\FoodOrderApp\FoodOrderApp.SignalR\obj\Debug\netcoreapp2.1\FoodOrderApp.SignalR.AssemblyInfoInputs.cache
+C:\Learn\FoodOrderApp\FoodOrderApp.SignalR\obj\Debug\netcoreapp2.1\FoodOrderApp.SignalR.AssemblyInfo.cs
+C:\Learn\FoodOrderApp\FoodOrderApp.SignalR\obj\Debug\netcoreapp2.1\FoodOrderApp.SignalR.dll
+C:\Learn\FoodOrderApp\FoodOrderApp.SignalR\obj\Debug\netcoreapp2.1\FoodOrderApp.SignalR.pdb

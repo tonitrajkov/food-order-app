@@ -1,0 +1,11 @@
+C:\Learn\FoodOrderApp\StanExample\bin\Debug\netcoreapp2.1\StanExample.deps.json
+C:\Learn\FoodOrderApp\StanExample\bin\Debug\netcoreapp2.1\StanExample.runtimeconfig.json
+C:\Learn\FoodOrderApp\StanExample\bin\Debug\netcoreapp2.1\StanExample.runtimeconfig.dev.json
+C:\Learn\FoodOrderApp\StanExample\bin\Debug\netcoreapp2.1\StanExample.dll
+C:\Learn\FoodOrderApp\StanExample\obj\Debug\netcoreapp2.1\StanExample.csprojAssemblyReference.cache
+C:\Learn\FoodOrderApp\StanExample\obj\Debug\netcoreapp2.1\StanExample.csproj.CoreCompileInputs.cache
+C:\Learn\FoodOrderApp\StanExample\obj\Debug\netcoreapp2.1\StanExample.AssemblyInfoInputs.cache
+C:\Learn\FoodOrderApp\StanExample\obj\Debug\netcoreapp2.1\StanExample.AssemblyInfo.cs
+C:\Learn\FoodOrderApp\StanExample\bin\Debug\netcoreapp2.1\StanExample.pdb
+C:\Learn\FoodOrderApp\StanExample\obj\Debug\netcoreapp2.1\StanExample.dll
+C:\Learn\FoodOrderApp\StanExample\obj\Debug\netcoreapp2.1\StanExample.pdb

@@ -1,0 +1,11 @@
+C:\Learn\FoodOrderApp\StanSub\bin\Debug\netcoreapp2.1\StanSub.deps.json
+C:\Learn\FoodOrderApp\StanSub\bin\Debug\netcoreapp2.1\StanSub.runtimeconfig.json
+C:\Learn\FoodOrderApp\StanSub\bin\Debug\netcoreapp2.1\StanSub.runtimeconfig.dev.json
+C:\Learn\FoodOrderApp\StanSub\bin\Debug\netcoreapp2.1\StanSub.dll
+C:\Learn\FoodOrderApp\StanSub\obj\Debug\netcoreapp2.1\StanSub.csproj.CoreCompileInputs.cache
+C:\Learn\FoodOrderApp\StanSub\obj\Debug\netcoreapp2.1\StanSub.AssemblyInfoInputs.cache
+C:\Learn\FoodOrderApp\StanSub\obj\Debug\netcoreapp2.1\StanSub.AssemblyInfo.cs
+C:\Learn\FoodOrderApp\StanSub\bin\Debug\netcoreapp2.1\StanSub.pdb
+C:\Learn\FoodOrderApp\StanSub\obj\Debug\netcoreapp2.1\StanSub.csprojAssemblyReference.cache
+C:\Learn\FoodOrderApp\StanSub\obj\Debug\netcoreapp2.1\StanSub.dll
+C:\Learn\FoodOrderApp\StanSub\obj\Debug\netcoreapp2.1\StanSub.pdb
