@@ -9,8 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css'
 
 import reducer from './reducers/index';
+import { fakeBackend } from './helpers/fake-backend';
 import App from './app';
 
+fakeBackend();
 const middleware = applyMiddleware(thunk);
 const store = createStore(reducer, middleware);
 

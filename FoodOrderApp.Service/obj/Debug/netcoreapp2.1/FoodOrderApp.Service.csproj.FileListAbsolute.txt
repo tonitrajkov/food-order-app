@@ -1,9 +1,0 @@
-C:\Learn\FoodOrderApp\FoodOrderApp.Service\bin\Debug\netcoreapp2.1\FoodOrderApp.Service.deps.json
-C:\Learn\FoodOrderApp\FoodOrderApp.Service\bin\Debug\netcoreapp2.1\FoodOrderApp.Service.dll
-C:\Learn\FoodOrderApp\FoodOrderApp.Service\bin\Debug\netcoreapp2.1\FoodOrderApp.Service.pdb
-C:\Learn\FoodOrderApp\FoodOrderApp.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Service.csprojAssemblyReference.cache
-C:\Learn\FoodOrderApp\FoodOrderApp.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Service.csproj.CoreCompileInputs.cache
-C:\Learn\FoodOrderApp\FoodOrderApp.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Service.AssemblyInfoInputs.cache
-C:\Learn\FoodOrderApp\FoodOrderApp.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Service.AssemblyInfo.cs
-C:\Learn\FoodOrderApp\FoodOrderApp.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Service.dll
-C:\Learn\FoodOrderApp\FoodOrderApp.Service\obj\Debug\netcoreapp2.1\FoodOrderApp.Service.pdb

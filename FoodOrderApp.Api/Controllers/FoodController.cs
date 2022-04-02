@@ -60,7 +60,7 @@ namespace FoodOrderApp.Api.Controllers
         {
             var categories = await _productService.GetCategories();
 
-            _pubSubService.Publish("Test fucking message");
+            _pubSubService.Publish("Test message");
 
             return Ok(categories);
         }

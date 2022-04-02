@@ -96,7 +96,7 @@ export class ProductDetails extends Component {
                     ? (
                         <ProductDetailsBody>
                             <ProducDetailsImgContainer>
-                                <img src={this.props.productDetails.product.image} alt='' />
+                                {/* <img src={this.props.productDetails.product.image} alt='' /> */}
                             </ProducDetailsImgContainer>
                             <ProductDetailsInfoContainer>
                                 <ProductInfoRow>

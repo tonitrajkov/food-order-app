@@ -10,7 +10,7 @@ const ProductItem = ({ product, onClick }) => {
     return (
         <ProductCard>
             <ProductCardImgContainer>
-                <img src={product.image} alt='' />
+                {/* <img src={product.image} alt='' /> */}
 
                 <ProductCardAddToCartBtn onClick={() => onClick(product)}>+</ProductCardAddToCartBtn>
             </ProductCardImgContainer>

@@ -1,7 +1,8 @@
 // import React from 'react';
 import styled from 'styled-components';
 import * as theme from '../../constants/theme';
-import img from '../../assets/images/empty-cart.png'
+import img from '../../assets/images/empty-cart.png';
+import foodAvatar from '../../assets/images/food-avatar.png';
 
 const ListStyle = styled.ul`
     padding: 0;
@@ -199,6 +200,10 @@ export const ProductCard = styled.div`
 `;
 
 export const ProductCardImgContainer = styled.div`
+    background: url(${foodAvatar}) no-repeat;
+    background-size: contain;
+    border: 1px solid #dfdfdf;
+    border-radius: 50%;
     width: 240px;
     height: 240px;
     position: relative;
@@ -268,6 +273,9 @@ export const ProductDetailsInfoContainer = styled.div`
 `;
 
 export const ProducDetailsImgContainer = styled.div`
+    background: url(${foodAvatar}) no-repeat;
+    background-size: contain;
+    border: 1px solid #dfdfdf;
     width: 550px;
     height: 550px;
     margin-right: 40px;

@@ -92,8 +92,8 @@ export class OrderStatus extends Component {
                                 </OrderStatusMenuEmptyCart>
                             )}
 
-                        <button onClick={() => this.onCheckoutClick()}>Send Text</button>
-                        <span>{this.state.message}</span>
+                        {/* <button onClick={() => this.onCheckoutClick()}>Send Text</button>
+                        <span>{this.state.message}</span> */}
                     </OrderStatusMenuBody>
 
                     {this.props.order ? (

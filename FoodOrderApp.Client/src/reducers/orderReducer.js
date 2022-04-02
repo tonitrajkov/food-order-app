@@ -249,7 +249,8 @@ export const orderReducer = (state = initState, action) => {
                 items: [...state.items, action.payload.orderItems]
             };
         case types.ADD_ORDER_ITEM:
-            localStorage.setItem('orderId', action.payload.orderId);
+            // localStorage.setItem('orderId', action.payload.orderId);
+            localStorage.setItem('orderId', 1);
 
             return {
                 ...state,
