@@ -75,9 +75,10 @@ export const ingredients = [
     { ingredientId: 30, name: 'ice cream', price: 0.4, isSelected: false, category: { categoryId: 5, name: 'Deserts' } },
 ];
 
-export const order = {
-    orderId: 1, orderNumber: '', orderDate: new Date(), orderStatus: '', note: '', totalPrice: 0,
-    orderItems: [
-        { orderItemId: 1, note: '', quantity: 1, totalPrice: 0, product: {}, ingredients: [] }
-    ]
+export const order = null;
+ {
+    // orderId: 1, orderNumber: '', orderDate: new Date(), orderStatus: '', note: '', totalPrice: 0,
+    // orderItems: [
+    //     { orderItemId: 1, note: '', quantity: 1, totalPrice: 0, product: {}, ingredients: [] }
+    // ]
 }

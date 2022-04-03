@@ -12,7 +12,7 @@ const OrderItem = ({ orderItem, onRemoveClick }) => {
             <OrderItemImgContainer>
                 <Badge>{orderItem.quantity}</Badge>
                 <OrderItemImg>
-                    <img src={orderItem.product.image} alt='' />
+                    {/* <img src={orderItem.product.image} alt='' /> */}
                 </OrderItemImg>
                 <small onClick={() => onRemoveClick(orderItem)}>Remove</small>
             </OrderItemImgContainer>

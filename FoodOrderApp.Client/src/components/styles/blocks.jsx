@@ -526,7 +526,10 @@ export const OrderItemImg = styled.div`
     width: 45px;
     height: 45px;
     border-radius: 50%;
-
+    background: url(${foodAvatar}) no-repeat;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
     img {
         width: 45px;
         height: 45px;

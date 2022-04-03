@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { categories, products, ingredients, order } from './mock-data';
+import { categories, products, ingredients } from './mock-data';
 
 export function fakeBackend() {
     const methods = ['get', 'post', 'put', 'delete'];
@@ -25,11 +25,11 @@ export function fakeBackend() {
                             return getProductDetailsById();
                         case url.includes('/food/ingredients/'):
                             return getIngredientsByCategory();
-                        case url.includes('/food/order/'):
+                        case url.includes('/food/order/') && method === 'get':
                             return getOrder();
-                        case url.includes('/food/order/item-create'):
+                        case url.includes('/food/order/item-create') && method === 'post':
                             return createOrderItem();
-                        case url.includes('/food/order/item-delete'):
+                        case url.includes('/food/order/item-delete') && method === 'delete':
                             return deleteOrderItem();
                         default:
                             // pass through any requests not handled above
@@ -75,22 +75,55 @@ export function fakeBackend() {
                 }
 
                 function getOrder() {
+                    const urlParts = url.split('/');
+                    const userId = parseInt(urlParts[urlParts.length - 2]);
+                    const order = JSON.parse(localStorage.getItem(`food-order-${userId}`));
+
                     return ok(order);
                 }
 
                 function createOrderItem() {
                     let params = body();
-                    const orderId = idFromUrl();
+                    params['orderItemId'] = new Date().getTime();
+
+                    let order = null;
+                    const urlParts = url.split('/');
+                    const orderId = parseInt(urlParts[urlParts.length - 1]);
+                    const userId = parseInt(urlParts[urlParts.length - 2]);
                     if (orderId) {
-                        let order = localStorage.getItem(`food-order-${3}`);
+                        order = JSON.parse(localStorage.getItem(`food-order-${userId}`));
+                        if (order) {
+                            order.orderItems.push(params);
+                        }
                     }
                     else {
-
+                        order = {
+                            orderId: new Date().getTime(),
+                            userId: userId,
+                            orderStatus: 'submitted',
+                            totalPrice: params.totalPrice,
+                            orderItems: [params]
+                        };
                     }
+                    localStorage.setItem(`food-order-${userId}`, JSON.stringify(order));
+                    return ok(order);
                 }
 
                 function deleteOrderItem() {
+                    const urlParts = url.split('/');
+                    const orderId = parseInt(urlParts[urlParts.length - 1]);
+                    const orderItemId = parseInt(urlParts[urlParts.length - 2]);
+                    const userId = parseInt(urlParts[urlParts.length - 3]);
 
+                    if (orderId) {
+                        let order = JSON.parse(localStorage.getItem(`food-order-${userId}`));
+                        if (order) {
+                            order.orderItems = order.orderItems.filter(x => x.orderItemId !== orderItemId);
+                            localStorage.setItem(`food-order-${userId}`, JSON.stringify(order));
+                        }
+                    }
+
+                    return ok();
                 }
 
                 // helpers

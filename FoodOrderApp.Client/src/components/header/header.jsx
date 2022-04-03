@@ -11,7 +11,7 @@ import {
 } from '../styles/style';
 
 const Header = (props) => {
-    const itemsCount = useSelector(state => state.order.items.length);
+    const itemsCount = useSelector(state => state.order?.items?.length);
     return (
         <HeaderBody>
             <LogoContainer>
